@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import 'antd/dist/antd.css';
+import './styles/index.less';
 import { Button } from 'antd';
 import Header from './components/header.jsx';
 export default class Index extends React.Component{
