@@ -1,0 +1,26 @@
+.tabNews {
+  .topNewsList{
+    ul {
+      li {
+        .h(28);
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        a{
+          color: @tab-text;
+        }
+        a:hover{
+          color: @tab-title;
+        }
+      }
+      li + li {
+        border-top: 1px dashed #333;
+      }
+    }
+    .ant-card-body{
+      background: @tab-content-background;
+    }
+  }
+}
