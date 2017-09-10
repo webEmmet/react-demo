@@ -4,11 +4,13 @@ import 'antd/dist/antd.css';
 import './styles/index.less';
 import { Button } from 'antd';
 import Header from './components/header.jsx';
+import Footer from './components/footer.jsx';
 export default class Index extends React.Component{
   render() {
     return (
       <div>
         <Header />
+        <Footer />
       </div>
     )
   }

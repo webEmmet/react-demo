@@ -16,18 +16,18 @@ export default class Header extends React.Component{
       <header className="header-box">
         <Row className="h-1 header">
           <Col span={4}></Col>
-          <Col span={6} className="the-logo-box h-1 d-f">
+          <Col span={6} className="the-logo-box h-1 d-fa">
             <a href="" className="logo d-b">
               <img src="./src/images/logo.png" alt="" />
             </a>
           </Col>
-          <Col span={8} className="header-text h-1 d-f">React-news-demo</Col>
+          <Col span={8} className="header-text h-1 d-fa">React-news-demo</Col>
           <Col span={4}></Col>
         </Row>
         {/*导航条*/}
         <Row className="the-nav">
           <Col span={4}></Col>
-          <Col span={16} className="header-text h-1 d-f">
+          <Col span={16} className="header-text h-1">
           <Menu 
             mode="horizontal" 
             className="nav-bar h-1 w-1"

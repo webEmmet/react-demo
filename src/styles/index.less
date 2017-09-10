@@ -1,8 +1,18 @@
 @import './template/header.less';
-
-.d-f{
+@import './template/footer.less';
+.d-fa{
   display: flex;
   align-items: center;
+  
+}
+.d-fj{
+  display: flex;
+  justify-content: center;
+}
+.d-faj{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .d-b{
   display: block;
@@ -12,6 +22,9 @@
 }
 .w-1{
   width: 100%;
+}
+.h(@px) {
+  height: unit(@px, px);
 }
 .fs(@px){
   font-size: unit(@px, px);
