@@ -2,12 +2,7 @@ import React from 'react';
 import { Row, Col} from 'antd';
 
 export default class Header extends React.Component{
-  constructor() {
-    super();
-    this.state = {
-      current: 'top',
-    }
-  }
+  
   render() {
     return(
       <footer className="footer">
