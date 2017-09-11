@@ -36,10 +36,7 @@ export default class NewsImgBlock extends React.Component{
             </Link>
           </li>)
       })
-      console.log(newsList);
     }
-    
-
     return(
       <div className="topNewsList">
         <Card title={this.props.cartTitle} bordered={true} style={{width: this.props.width}}>

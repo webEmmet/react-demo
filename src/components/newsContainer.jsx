@@ -37,9 +37,7 @@ export default class NewsContainer extends React.Component{
               <TabPane tab="国际" key="2">
                 <NewsBlock count={15} type="guoji" width="100%" bordered="false"/>
               </TabPane>
-              <TabPane tab="娱乐" key="3">
-                <NewsBlock count={15} type="yule" width="100%" bordered="false"/>
-              </TabPane>
+              
             </Tabs>
           </Col>
           <Col span={4}></Col>
@@ -47,7 +45,8 @@ export default class NewsContainer extends React.Component{
         <Row>
           <Col span={4}></Col>
           <Col span={16} className="imageNews">
-            <NewsImgBlock count={6} type="guoji" width="100%" carTitle="国际头条"/>  
+            <NewsImgBlock count={8} type="guoji" width="100%" cartTitle="国际头条"/>
+            <NewsImgBlock count={8} type="yule" width="100%" cartTitle="娱乐头条"/>  
           </Col>
           <Col span={4}></Col>
         </Row>

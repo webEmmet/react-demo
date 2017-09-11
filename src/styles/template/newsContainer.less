@@ -1,5 +1,5 @@
 .container{
-  .patb(30);
+  .patb(80);
   .pad(15);
   background: @theme-background-dark;
   .slick-track{
@@ -23,5 +23,10 @@
   }
   .ant-tabs-tab-active{
     color: @tab-title;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+  .container .slick-track {
+    .h(400)
   }
 }

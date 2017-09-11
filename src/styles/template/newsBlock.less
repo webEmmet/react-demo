@@ -3,13 +3,16 @@
     ul {
       li {
         .h(28);
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
+        
         display: flex;
         align-items: center;
         a{
           color: @tab-text;
+          display: block;
+          width: 100%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
         }
         a:hover{
           color: @tab-title;
