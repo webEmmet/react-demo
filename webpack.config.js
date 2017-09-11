@@ -1,4 +1,7 @@
 module.exports = {
+  devServer: {
+    historyApiFallback: true
+  },
   context: __dirname + '/src',
   entry: './app.jsx',
   module: {
