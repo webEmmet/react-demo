@@ -92,7 +92,7 @@ class Header extends React.Component{
         <Row className="h-1 header">
           <Col span={4}></Col>
           <Col span={6} className="the-logo-box h-1 d-fa">
-            <a href="" className="logo d-b">
+            <a href={`/`} className="logo d-b">
               <img src="/src/images/logo.png" alt="" />
             </a>
           </Col>
